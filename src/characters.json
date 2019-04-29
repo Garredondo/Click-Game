@@ -1,37 +1,62 @@
 [
     {
-        "key": 1,
+        "id": 1,
         "name": "Bart-1",
         "image": "/assets/images/characters/bart-1.png"
     },
     {
-        "key": 2,
+        "id": 2,
         "name": "Lisa-1",
         "image": "/assets/images/characters/lisa-1.png"
     },
     {
-        "key": 3,
+        "id": 3,
         "name": "Homer-1",
         "image": "/assets/images/characters/homer-1.jpeg"
     },
     {
-        "key": 4,
+        "id": 4,
         "name": "Marge-1",
         "image": "/assets/images/characters/marge-1.jpeg"
     },
     {
-        "key": 5,
+        "id": 5,
         "name": "Granpa",
         "image": "/assets/images/characters/grandpa.png"
     },
     {
-        "key": 6,
+        "id": 6,
         "name": "Maggie",
         "image": "/assets/images/characters/maggie-1.jpeg"
     },
     {
-        "key": 7,
+        "id": 7,
         "name": "Apu",
-        "image": "/assets/images/characters/apu-1"
+        "image": "/assets/images/characters/apu-1.jpeg"
+    },
+    {
+        "id": 8,
+        "name": "Bart-2",
+        "image": "/assets/images/characters/bart-2.png"
+    },
+    {
+        "id": 9,
+        "name": "Lisa-2",
+        "image": "/assets/images/characters/lisa-2.png"
+    },
+    {
+        "id": 10,
+        "name": "Homer-2",
+        "image": "/assets/images/characters/homer-2.jpeg"
+    },
+    {
+        "id": 11,
+        "name": "Burns",
+        "image": "assets/images/characters/burns.jpeg"
+    },
+    {
+        "id": 12,
+        "name": "Homer-3",
+        "image": "/assets/images/characters/homer-3.jpeg"
     }
 ]

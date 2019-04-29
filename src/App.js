@@ -10,33 +10,32 @@ const styles = {
     }
 };
 
-function App() {
-    return (
-        <div style={styles.body}>
-            <Title score={0} topScore={0}>The Simpson's Click-Game</Title>
-            <Instructions />
-            <CharacterCards
-                name={characters[0].name}
-                image={characters[0].image}
-            />
+class App extends React.Component {
+    state = {
+        characters: characters
+    }
 
-            <CharacterCards
-                name={characters[1].name}
-                image={characters[1].image}
-            />
+    render(){
+        return (
+            <div style={styles.body}>
+                <Title score={0} topScore={0}>The Simpson's Click-Game</Title>
+                <Instructions />
 
-            <CharacterCards
-                name={characters[2].name}
-                image={characters[2].image}
-            />
+                {this.state.characters.map(char => {
+                    return <CharacterCards
+                    key={char.id}
+                    id={char.id}
+                    name={char.name}
+                    image={char.image}
+                />
 
-            <CharacterCards
-                name={characters[3].name}
-                image={characters[3].image}
-            />  
-        </div>
 
-    );
+                })}
+                
+            </div>
+
+        );
+    };
 };
 
 export default App;
