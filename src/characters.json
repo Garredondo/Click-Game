@@ -2,61 +2,73 @@
     {
         "id": 1,
         "name": "Bart-1",
-        "image": "/assets/images/characters/bart-1.png"
+        "image": "/assets/images/characters/bart-1.png",
+        "clicked": false
     },
     {
         "id": 2,
         "name": "Lisa-1",
-        "image": "/assets/images/characters/lisa-1.png"
+        "image": "/assets/images/characters/lisa-1.png",
+        "clicked": false
     },
     {
         "id": 3,
         "name": "Homer-1",
-        "image": "/assets/images/characters/homer-1.jpeg"
+        "image": "/assets/images/characters/homer-1.jpeg",
+        "clicked": false
     },
     {
         "id": 4,
         "name": "Marge-1",
-        "image": "/assets/images/characters/marge-1.jpeg"
+        "image": "/assets/images/characters/marge-1.jpeg",
+        "clicked": false
     },
     {
         "id": 5,
         "name": "Granpa",
-        "image": "/assets/images/characters/grandpa.png"
+        "image": "/assets/images/characters/grandpa.png",
+        "clicked": false
     },
     {
         "id": 6,
         "name": "Maggie",
-        "image": "/assets/images/characters/maggie-1.jpeg"
+        "image": "/assets/images/characters/maggie-1.jpeg",
+        "clicked": false
     },
     {
         "id": 7,
         "name": "Apu",
-        "image": "/assets/images/characters/apu-1.jpeg"
+        "image": "/assets/images/characters/apu-1.jpeg",
+        "clicked": false
     },
     {
         "id": 8,
         "name": "Bart-2",
-        "image": "/assets/images/characters/bart-2.png"
+        "image": "/assets/images/characters/bart-2.png",
+        "clicked": false
     },
     {
         "id": 9,
         "name": "Lisa-2",
-        "image": "/assets/images/characters/lisa-2.png"
+        "image": "/assets/images/characters/lisa-2.png",
+        "clicked": false
     },
     {
         "id": 10,
         "name": "Homer-2",
-        "image": "/assets/images/characters/homer-2.jpeg"
+        "image": "/assets/images/characters/homer-2.jpeg",
+        "clicked": false
     },
     {
         "id": 11,
         "name": "Burns",
-        "image": "assets/images/characters/burns.jpeg"
+        "image": "assets/images/characters/burns.jpeg",
+        "clicked": false
     },
     {
         "id": 12,
         "name": "Homer-3",
-        "image": "/assets/images/characters/homer-3.jpeg"
+        "image": "/assets/images/characters/homer-3.jpeg",
+        "clicked": false
     }
 ]
